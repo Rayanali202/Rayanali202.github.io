@@ -1,0 +1,47 @@
+body{
+    background: url(./Sidianparty.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.sidian{
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+    position: absolute;
+    top:60%;
+    bottom: 0;
+    left: 45%;
+    right: 50%;
+    
+    margin: auto;
+}
+
+h1{
+    font-family: "Rubik Puddles", cursive;
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+}
+
+input[type = email]{
+    height: 40px;
+    border: none;
+    background-color: #F5FFFA;
+    margin-bottom: 20px;
+    padding-left: 5px;;
+
+}
+button{
+    height: 40px;
+    background-color: #48D11C ;
+    border: none;
+    color: white;
+    font-style: italic;
+}
+button:hover{
+    background-color: lightgreen;
+
+}
